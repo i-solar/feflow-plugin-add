@@ -9,3 +9,7 @@ feflow add 1 2 3
 ```
 
 And you can get the output `6`.
+
+## License
+
+[MIT](https://tldrlegal.com/license/mit-license)
