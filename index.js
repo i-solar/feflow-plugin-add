@@ -1,17 +1,4 @@
-/**
- * 加法运算器
- * @param  {Array} args 一些需要累加的数字
- * @return {number} 累加的和
- */
-function add (args) {
-    const sum = args.reduce((sum, item) => {
-        return sum + item
-    }, 0)
-
-    // console.log(sum)
-    feflow.log.info(sum)
-    return sum
-}
+const add = require('./add')(feflow)
 
 // 注册一个 add 命令
 feflow.cmd.register('add', '加法运算器', function(args) {
