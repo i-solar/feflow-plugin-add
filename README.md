@@ -7,7 +7,7 @@ For example, if you install the plugin, you can input command in terminal like t
 ```sh
 feflow add 1 2 3
 # output: 6
-feflow subtract 1 2 3
+feflow minus 1 2 3
 # output: -4
 feflow multiply 2 2 4
 # output: 16
