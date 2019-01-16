@@ -1,8 +1,8 @@
 {
-  "name": "feflow-plugin-add",
+  "name": "feflow-plugin-example",
   "version": "1.0.0",
-  "description": "an adding device plugin",
-  "main": "index.js",
+  "description": "a simple calculator",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
